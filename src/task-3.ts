@@ -1,15 +1,15 @@
-const usernames: string[] = ["alice", "bob", "charlie"];
+const usernames: string[] = ['alice', 'bob', 'charlie'];
 
 const ratings: number[] = [4.5, 3.8, 5];
 
-interface Produkt {
-  readonly id: number;
-  title?: string;
+interface Product {
+  id: number;
+  title: string;
 }
 
-const products: Produkt[] = [
-  { id: 1, title: "Phone" },
-  { id: 2, title: "Laptop" },
+const products: Product[] = [
+  { id: 1, title: 'Phone' },
+  { id: 2, title: 'Laptop' },
 ];
 
 console.log(`Usernames: ${JSON.stringify(usernames)}`);
